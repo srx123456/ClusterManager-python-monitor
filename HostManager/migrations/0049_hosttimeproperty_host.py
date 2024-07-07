@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='hosttimeproperty',
             name='host',
-            field=models.ForeignKey(default=django.utils.timezone.now, on_delete=django.db.models.deletion.CASCADE, to='HostManager.Host'),
+            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='HostManager.Host'),
             preserve_default=False,
         ),
     ]

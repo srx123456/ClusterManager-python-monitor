@@ -114,7 +114,7 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'USER': 'root',
-        'PASSWORD': 'neunn',
+        'PASSWORD': 'bjtungirc',
     }
 }
 
@@ -308,11 +308,11 @@ ACCOUNT_USERNAME_MIN_LENGTH= 3 #用户名最小长度
 # django-allauth邮箱设定
 EMAIL_HOST = 'smtp.qq.com'
 EMAIL_PORT = 25
-EMAIL_HOST_USER = '277784408@qq.com' # 你的 QQ 账号和授权码
-EMAIL_HOST_PASSWORD = 'ipbgjcznsoqtbied'
+EMAIL_HOST_USER = 'suoruixiang@qq.com' # 你的 QQ 账号和授权码
+EMAIL_HOST_PASSWORD = 'mzkehfpzaemcebcj'
 EMAIL_USE_TLS = True  # 这里必须是 True，否则发送不成功
-EMAIL_FROM = '277784408@qq.com' # 你的 QQ 账号
-DEFAULT_FROM_EMAIL = '277784408@qq.com'
+EMAIL_FROM = 'suoruixiang@qq.com' # 你的 QQ 账号
+DEFAULT_FROM_EMAIL = 'suoruixiang@qq.com'
 
 #CRISPY_TEMPLATE_PACK = 'bootstrap4
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
